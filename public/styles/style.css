@@ -1,0 +1,23 @@
+html, body {
+	font-variant: small-caps;
+	/*height: 100%;*/
+}
+
+.logo-text {
+	text-align: center;
+	font-size: 40px;
+	font-weight: 800px;
+	background: ;
+	font-variant: small-caps;
+}
+
+.centred {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+}

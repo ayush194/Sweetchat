@@ -2,14 +2,15 @@ create database sweetchat;
 use sweetchat;
 
 create table users (
-	userid int(18) not null auto_increment;
-	firstname varchar(50) not null;
+	userid int(18) not null auto_increment,
+	firstname varchar(50) not null,
 	lastname varchar(50),
 	username varchar(50) not null,
-	email varcahr(50) not null,
+	email varchar(50) not null,
 	password varchar(250) not null,
 	regdate datetime not null default current_timestamp,
-	lastupdated datetime not null default current_timestamp on update current_timestamp
+	lastupdated datetime not null default current_timestamp on update current_timestamp,
+	primary key(userid)
 );
 
 create table status (

@@ -42,7 +42,9 @@ function validateEmail(element) {
   var valid = generic_email.test(element.value);
 	//console.log(element.value);
   $.ajax({
-    url: "submit.php",
+    url: "https://sweet-chat.herokuapp.com/signup/submit",
+    //for local testing
+    //url: "https://submit.php",
     type: "post",
     data: {
       "email_check" : 1,
@@ -65,7 +67,9 @@ function validateUser(element) {
   var generic_username = /^[A-Za-z0-9_]+$/;
   var valid = generic_username.test(element.value);
   $.ajax({
-    url: "submit.php",
+    url: "https://sweet-chat.herokuapp.com/signup/submit",
+    //for local testing
+    //url: "https://submit.php",
     type: "post",
     data: {
     	"username_check" : 1,

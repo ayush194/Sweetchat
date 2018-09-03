@@ -45,7 +45,9 @@ function renumber() {
 
 function validateUser(element) {
   $.ajax({
-    url: "/signup/submit.php",
+    url: "https://sweet-chat.herokuapp.com/signup/submit",
+    //for local testing
+    //url: "/signup/submit.php",
     type: "post",
     data: {
       "username_check" : 1,

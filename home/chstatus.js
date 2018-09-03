@@ -1,6 +1,8 @@
 function changeStatus(userid_1, userid_2, istatusid, fstatusid) {
 	$.ajax({
-    url: "status.php",
+    url: "https://sweet-chat.herokuapp.com/home/status",
+    //for local testing
+    //url: "status.php",
     type: "post",
     data: {
     	"userid_1" : userid_1,

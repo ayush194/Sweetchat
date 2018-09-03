@@ -33,7 +33,9 @@ function currDate() {
 
 function pushMessage(chatid, text) {
   $.ajax({
-    url: "push_message.php",
+    url: "https://sweet-chat.herokuapp.com/home/chat/push_message",
+    //for local testing
+    //url: "push_message.php",
     type: "post",
     data: {
       "text" : text,

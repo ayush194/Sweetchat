@@ -70,7 +70,9 @@ if ($_SERVER["REQUEST_METHOD"] == "GET") {
     return function() {
       $.ajax({
         dataType: "json",
-        url: "fetch_messages.php",
+        url: "https://sweet-chat.herokuapp.com/home/chat/fetch_messages",
+        //for local testing
+        //url: "fetch_messages.php",
         type: "post",
         data: {
           "chatid" : chatid,

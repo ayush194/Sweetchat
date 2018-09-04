@@ -13,7 +13,7 @@
 
 <body>
   <?php include $_SERVER['DOCUMENT_ROOT'] . "/include/header.php"; ?>
-	<form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
+	<form method="post" action="https://sweet-chat.herokuapp.com/login/login">
 		<center>
 			<input class="form-control col-10 col-sm-3" placeholder="Username" type="username" name="username" value="<?php echo $username; ?>" required><br>
 			<input class="form-control col-10 col-sm-3" placeholder="Password" type="password" name="password" required>

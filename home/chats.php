@@ -1,6 +1,6 @@
 <?php include $_SERVER['DOCUMENT_ROOT'] . "/include/sessions.php"; ?>
 <?php include $_SERVER['DOCUMENT_ROOT'] . "/connect/connect.php"; ?>
-<?php include "chat/chat_cards.php"; ?>
+<?php include $_SERVER['DOCUMENT_ROOT'] . "home/chat/chat_cards.php"; ?>
 <?php include $_SERVER['DOCUMENT_ROOT'] . "/include/metadata.html"; ?>
   <script src="./chstatus.js"></script>
   <script src="jscolor.js"></script>

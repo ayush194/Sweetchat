@@ -30,7 +30,7 @@ function getChatCards($result) {
           foreach($card_info["members"] as $member) {$resp .= ' @'. $member;}
           $resp .= '</span></p>
 	        <div class="d-flex mt-auto flex-column">
-          <form method="get" target="_blank" action="chat/chatbox.php">
+          <form method="get" target="_blank" action="/home/chat/chatbox">
           <input class="form-control" style="visibility:hidden;" name="chatid" value="'. $card_info["chatid"] .'">
 	        <button type="submit" class="btn" style="background-color:'. $card_info["color"] .';">SweetChat</button>
           </form>

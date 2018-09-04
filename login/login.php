@@ -1,7 +1,7 @@
 <?php
   session_start();
   if (isset($_SESSION["username"])) {
-    header("Location: https://sweet-chat.herokuapp.com/home/home");
+    header("Location: /home/home");
     die();
   }
   include "attempt.php";

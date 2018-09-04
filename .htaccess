@@ -1,6 +1,6 @@
 <IfModule mod_rewrite.c>
 	RewriteEngine on
-	RewriteBase /
+	RewriteBase https://sweet-chat.herokuapp.com/
 	RewriteRule ^(.+)\.php$ /$1 [R,L]
 	RewriteCond %{REQUEST_FILENAME}.php -f
 	RewriteRule ^(.*?)/?$ /$1.php [NC,END]

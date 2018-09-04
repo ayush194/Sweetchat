@@ -25,7 +25,7 @@ function userAccess() {
     //die("access granted");
     $_SESSION["userid"] = $row["userid"];
     $_SESSION["username"] = $username;
-    header("Location: https://sweet-chat.herokuapp.com/home/home");
+    header("Location: /home/home");
     die();
   } else {
     session_destroy();

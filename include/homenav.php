@@ -19,7 +19,7 @@
     </ul>
     <ul class="nav navbar-nav navbar-right">
       <li>
-        <form action="find_friends.php" method="get" class="input-group">
+        <form action="/home/find_friends" method="get" class="input-group">
           <input type="text" class="form-control" placeholder="Find Friends..." aria-label="Recipient's username" aria-describedby="basic-addon2" name="searchtext">
         <div class="input-group-append">
         <button type="submit" class="input-group-text" id="basic-addon2"><i class="fa fa-search"></i></button>

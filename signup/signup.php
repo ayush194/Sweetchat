@@ -9,7 +9,7 @@
     include $_SERVER['DOCUMENT_ROOT'] . "/include/header.php";
   ?>
   <center>
-  	<form class="col-sm-6 col-10 needs-validation" method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
+  	<form class="col-sm-6 col-10 needs-validation" method="post" action="">
   		<div class="row">
   			<div class="col-sm-6 col-12">
   				<input class="form-control" placeholder="First Name" onfocusout="validateName(this)" type="text" name="firstname" value="<?php echo $firstname;?>" required>

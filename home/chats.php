@@ -66,7 +66,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 <div id="create-chat-popup" class="card mx-auto mb-4" style="display:none; position:fixed; bottom:5%; right:10%; border-color:#ab2567; width: 18rem; ">
   <div class="card-body d-flex flex-column">
-    <form id="create-chat-form" method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
+    <form id="create-chat-form" method="post" action="">
       <input class="card-title form-control" name="chattopic" placeholder="Topic" required="">
       <div class="card-text">Members :</div>
       <div id="create-chat-members" class="d-flex mt-auto flex-column">

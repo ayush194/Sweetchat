@@ -1,6 +1,8 @@
 <IfModule mod_rewrite.c>
 	RewriteEngine on
 	RewriteBase /
+	RewriteCond %{HTTPS} !on
+	RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI}
 	RewriteRule ^(.+)\.php$ /$1 [R,L]
 	RewriteCond %{REQUEST_FILENAME}.php -f
 	RewriteRule ^(.*?)/?$ /$1.php [NC,END]

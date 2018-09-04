@@ -4,7 +4,7 @@
     header("Location: /home/home");
     die();
   }
-  include "attempt.php";
+  include $_SERVER['DOCUMENT_ROOT'] . "/login/attempt.php";
 ?>
 
 <?php include $_SERVER['DOCUMENT_ROOT'] . "/include/metadata.html"; ?>

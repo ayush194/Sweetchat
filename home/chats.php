@@ -3,7 +3,7 @@
 <?php include $_SERVER['DOCUMENT_ROOT'] . "/home/chat/chat_cards.php"; ?>
 <?php include $_SERVER['DOCUMENT_ROOT'] . "/include/metadata.html"; ?>
   <script src="./chstatus.js"></script>
-  <script src="jscolor.js"></script>
+  <script src="./jscolor.js"></script>
   <script src="./add_chat.js"></script>
   <!--<script src="../signup/validate.js"></script>-->
   <title>SweetChat | Chats</title>

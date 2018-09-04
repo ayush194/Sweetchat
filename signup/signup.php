@@ -1,4 +1,4 @@
-<?php include "submit.php"; ?>
+<?php include $_SERVER['DOCUMENT_ROOT'] . "/signup/submit.php"; ?>
 <?php include $_SERVER['DOCUMENT_ROOT'] . "/include/metadata.html"; ?>
   <script src="./validate.js"></script>
   <title>SweetChat | Signup</title>
